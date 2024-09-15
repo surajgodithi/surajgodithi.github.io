@@ -1,3 +1,4 @@
+/* General Reset and Styling */
 * {
     margin: 0;
     padding: 0;
@@ -36,9 +37,20 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Section Styling */
 .section {
     padding: 100px 20px;
     min-height: 100vh;
+}
+
+/* Center and Style Titles */
+.section h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
 }
 
 #home {
